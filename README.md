@@ -1,6 +1,8 @@
-# Implementation of COLING20 submission 
-This project contains python implementation for COLING20 submission.
+# COLING20: Incremental Neural Lexical Coherence Modeling
+### [Sungho Jeon](https://sdeva14.github.io/) and [Michael Strube](https://www.h-its.org/people/prof-dr-michael-strube/)
+#### [NLP Lab, Heidelberg Institute for Theoretical Studies (HITS)](https://www.h-its.org/research/nlp/people/)
 
+This project contains a python implementation for the COLING20 paper whose title is "Incremental Neural Lexical Coherence Modeling".
 ## Requirements
 
 #### Conda environment
