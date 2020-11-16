@@ -40,11 +40,11 @@ Detail information about the configuration can be found in the "build_config.py"
     For GCDC) python main.py --gcdc_domain Clinton --target_model ilcr_lcsd
 
 #### The list of models
-conll17: The automated essay scoring model in Dong et al. (2017)
-emnlp18: The coherence model in Mesgar and Strube (2018)
-sent_avg: The baseline which encodes sentences individually, then averages all sentence representations
-doc_avg: The baseline which encodes a document at once, then averages all representations
-inc_lexi: Our model which represents lexical coherence
+	conll17: The automated essay scoring model in Dong et al. (2017)
+	emnlp18: The coherence model in Mesgar and Strube (2018)
+	sent_avg: The baseline which encodes sentences individually, then averages all sentence representations
+	doc_avg: The baseline which encodes a document at once, then averages all representations
+	inc_lexi: Our model which represents lexical coherence
 
 #### Pre-defined configuration
 For the convenient reproduction, we provide four configuration examples, a configuration with RNN models (e.g., "toefl_build_config.py") and a configuration with XLNet model (e.g., "toefl_xlnet_build_config.py") for the two datasets.
