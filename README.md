@@ -17,7 +17,7 @@ Our environment file is built based on CUDA9 driver and corresponding libraries,
 #### Dataset and materials
 Dataset and pretrained embedding cannot be attached in the submission due to large size, thus it should be downloaded from the Github of previous work.
 
-- Dataset: The GCDC dataset is available as guided their GitHub with the license for Yahoo Answers corpus. This license can be requested free of charge for research purposes. The TOEFL dataset is available according to the link in the original paper (Blanchard et al. 2013) with LDC license. The location of the target dataset should be configured in "build_config.py" with "--data_dir" option. A CV partition can be created by our implementation using --is_gen_cv option in build_config.py. We will share the index of the CV partition used in both datasets upon publication.
+- Dataset: The GCDC dataset is available as guided their GitHub with the license for Yahoo Answers corpus. This license can be requested free of charge for research purposes. The TOEFL dataset is available according to the link in the original paper (Blanchard et al. 2013) with LDC license. The location of the target dataset should be configured in "build_config.py" with "--data_dir" option. A CV partition can be created by our implementation using --is_gen_cv option in build_config.py. The indexes of CV partitions are attached for two datasets, "toefl_ids_cv5.tar.gz" and "gcdc_ids_cv10.tar.gz", respectively.
 
 GCDC dataset link: https://github.com/aylai/GCDC-corpus
 
