@@ -113,7 +113,7 @@ class Coh_Model_DocAvg(models.model_base.BaseModel):
 
         ## averaging RNN output by their length; named implicit lexical cohesion vector
         len_seq = utils.cast_type(len_seq, FLOAT, self.use_gpu)
-        ilc_vec = torch.div(torch.sum(encoder_out, dim=1), self.avg_len_doc)  # (batch_size, rnn_cell_size)
+        ilc_vec = torch.div(torch.sum(encoder_out, dim=1), len_seq.unsqueeze(1))  # (batch_size, rnn_cell_size)
 
         #### Fully Connected
         fc_out = self.linear_1(ilc_vec)
