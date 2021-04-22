@@ -175,7 +175,7 @@ class Coh_Model_Inc_Lexi(models.model_base.BaseModel):
             sim_conv = self.dropout_01(sim_conv)
             # sim_conv = self.dropout_02(sim_conv)
 
-            cur_avg_pooled = self.max_adapt_pool1_sent(crop_tensor)
+            cur_avg_pooled = self.max_adapt_pool1_sent(sim_conv)
             avg_pooled_sent[cur_batch, :] = cur_avg_pooled
 
         #### FC layer
